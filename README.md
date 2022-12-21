@@ -1,6 +1,6 @@
 # About me
 
-Hi ! I'm a computer science student at __University of Tours - UFR Science et Technique in Blois branch__ in France. My favorites fields are software development and machine learning.
+Hi ! I'm a computer science student at <a href='https://www.univ-tours.fr/formations/licence-sciences-technologies-sante-mention-informatique'>__University of Tours - UFR Science et Technique in Blois branch__</a> in France. My favorites fields are software development and machine learning.
 <br>
 # Skills
 <table align="center">
