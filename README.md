@@ -9,7 +9,7 @@ Hi ! I'm a computer science student at <a href='https://www.univ-tours.fr/format
 			<th colspan='2' align='center'>Software development</th>
 			<th colspan='1' align='center'>Front-End</th>
 			<th colspan='1' align='center'>Back-End</th>
-			<th colspan='1' align='center'>Outils</th>
+			<th colspan='1' align='center'>Tools - Other</th>
 		</tr>
 	</thead>
 	<tbody>
