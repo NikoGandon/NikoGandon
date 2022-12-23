@@ -40,5 +40,5 @@ Hi ! I'm a computer science student at <a href='https://www.univ-tours.fr/format
 # Contact
 <p align='center'>
 	<a href="mailto:nikola.gandon@gmail.com">Par Mail</a>
-	<a href="linkedin.in/nikola-gandon">Mon Linkedin</a>
+	<a href="https://www.linkedin.com/in/nikola-gandon/">Mon Linkedin</a>
 </p>
