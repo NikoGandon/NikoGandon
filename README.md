@@ -7,6 +7,7 @@ Hi ! I'm a computer science student at __University of Tours - UFR Science et Te
 	<thead>
 		<tr>
 			<th colspan='2' align='center'>Software development</th>
+			<th colspan='1' algin='center'>Graphic computing</th>
 			<th colspan='1' align='center'>Front-End</th>
 			<th colspan='1' align='center'>Back-End</th>
 			<th colspan='1' align='center'>Outils</th>
@@ -16,6 +17,7 @@ Hi ! I'm a computer science student at __University of Tours - UFR Science et Te
 		<tr>
 			<td align='center'>C++</td>
 			<td align='center'>C</td>
+			<td align='center'>SFML</td>
 			<td align='center'>HTML</td>
 			<td align='center'>SQL</td>
 			<td align='center'>Adobe Premiere Pro</td>
