@@ -1,6 +1,6 @@
 # About me
 
-Hi ! I'm a computer science student at __University of Tours - UFR Science et Technique in Blois branch__ in France. My favorites fields are software development and machine learning.
+Hi ! I'm a computer science student at <a href='https://www.univ-tours.fr/formations/licence-sciences-technologies-sante-mention-informatique'>__University of Tours - UFR Science et Technique in Blois branch__</a> in France. My favorites fields are software development and machine learning.
 <br>
 # Skills
 <table align="center">
@@ -10,7 +10,7 @@ Hi ! I'm a computer science student at __University of Tours - UFR Science et Te
 			<th colspan='1' algin='center'>Graphic computing</th>
 			<th colspan='1' align='center'>Front-End</th>
 			<th colspan='1' align='center'>Back-End</th>
-			<th colspan='1' align='center'>Outils</th>
+			<th colspan='1' align='center'>Tools - Other</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -42,5 +42,5 @@ Hi ! I'm a computer science student at __University of Tours - UFR Science et Te
 # Contact
 <p align='center'>
 	<a href="mailto:nikola.gandon@gmail.com">Par Mail</a>
-	<a href="linkedin.in/nikola-gandon">Mon Linkedin</a>
+	<a href="https://www.linkedin.com/in/nikola-gandon/">Mon Linkedin</a>
 </p>
