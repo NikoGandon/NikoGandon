@@ -25,12 +25,14 @@ Hi ! I'm a computer science student at <a href='https://www.univ-tours.fr/format
 		<tr>
 			<td align='center'>JAVA</td>
 			<td align='center'>Python</td>
+			<td align='center'></td>
 			<td align='center'>CSS</td>
 			<td align='center'>PHP</td>
 			<td align='center'>Adobe Photoshop</td>
 		</tr>
 		<tr>
 			<td align ='center' colspan='2'>Powershell</td>
+			<td align='center'></td>
 			<td align='center'></td>
 			<td align='center'></td>
 			<td align='center'>Git</td>
