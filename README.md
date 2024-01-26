@@ -37,13 +37,13 @@ Hi ! I'm a computer science student at <a href='https://www.univ-tours.fr/format
 			<td align='center'>Express</td>
 			<td align='center'>Git</td>
 		</tr>
-		<tr>
+		<!-- <tr>
 			<td align='center'></td>
 			<td align='center'></td>
 			<td align='center'></vtd>
 			<td align='center'></td>
 			<td align='center'></td>
-		</tr>
+		</tr> -->
 	</tbody>
 </table>
 <br>
