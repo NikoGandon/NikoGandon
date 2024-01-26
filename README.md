@@ -28,10 +28,18 @@ Hi ! I'm a computer science student at <a href='https://www.univ-tours.fr/format
 			<td align='center'>Adobe Photoshop</td>
 		</tr>
 		<tr>
-			<td align ='center' colspan='2'>Powershell</td>
-			<td align='center'></td>
-			<td align='center'></td>
+			<td align='center' colspan='2'>Powershell</td>
+			<!-- <td align='center'></td> -->
+			<td align='center'>React</td>
+			<td align='center'>Express</td>
 			<td align='center'>Git</td>
+		</tr>
+		<tr>
+			<td align='center'></td>
+			<td align='center'></td>
+			<td align='center'></vtd>
+			<td align='center'></td>
+			<td align='center'></td>
 		</tr>
 	</tbody>
 </table>
@@ -39,6 +47,6 @@ Hi ! I'm a computer science student at <a href='https://www.univ-tours.fr/format
 
 # Contact
 <p align='center'>
-	<a href="mailto:nikola.gandon@gmail.com">Par Mail</a>
+	<a href="mailto:nikola.gandon@gmail.com" style="padding-right: 15px">Par Mail</a>
 	<a href="https://www.linkedin.com/in/nikola-gandon/">Mon Linkedin</a>
 </p>
