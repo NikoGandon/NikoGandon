@@ -49,6 +49,7 @@ Hi ! I'm a computer science student at <a href='https://www.univ-orleans.fr/fr/s
 	</tbody>
 </table>
 <br>
+
 # Contact
 <p align='center'>
 	<a href="mailto:nikola.gandon@gmail.com" style="padding-right: 15px">Par Mail</a>
