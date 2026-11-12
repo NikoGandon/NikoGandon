@@ -1,4 +1,3 @@
-
 # Nikola Gandon
 
 **Étudiant M2 Informatique (Intelligent Systems and Applications, Université de Tours) · AI engineering, RAG & data engineering**
@@ -11,21 +10,23 @@ Tours (mobilité France) · [LinkedIn](https://www.linkedin.com/in/nikola-gandon
 
 ---
 
-## Projets récents · code privé
+## Projets récents · code privé, architecture documentée
 
-> Démos et schémas d'architecture sur demande via [LinkedIn](https://www.linkedin.com/in/nikola-gandon/).
+Le code de ces projets est privé. Leur architecture, leurs choix de conception et un extrait de code testé sont publiés dans des dépôts dédiés.
 
 ### Bot de support Discord multilingue (RAG)
-`TypeScript` `SvelteKit` `Prisma` · ~55 k lignes
+`TypeScript` `SvelteKit` `Prisma` `MySQL` `Stripe` `discord.js` · développé seul · [architecture et décisions](https://github.com/NikoGandon/discord-rag-support-architecture)
 
-- Recherche hybride vectorielle + lexicale (fusion RRF) sur PDF, pages web et salons Discord
-- **Escalade vers un humain forcée dans le code** sous un seuil de confiance, pas seulement par le prompt
+- Recherche hybride (embeddings en MySQL, reclassement lexical, fusion RRF) sur PDF, pages web et salons Discord
+- **Escalade vers un humain forcée dans le code** quand aucune source n'est exploitable, pas seulement par le prompt
+- 100 serveurs, 300+ administrateurs, arrêté quand Discord a bloqué les nouvelles invitations (limite des 100 serveurs sans vérification)
 
-### Mêtis, orchestrateur multi-agents LLM
-`Python` `LangGraph`
+### Mêtis, audit documentaire multi-agents
+`Python` `Pydantic` `pytest` · projet personnel · [architecture et décisions](https://github.com/NikoGandon/metis-architecture)
 
-- Hypothèse → génération de code → exécution isolée → verdict d'un critique
-- **Chaque citation est vérifiée mot pour mot** dans les sources (arXiv, PubMed), sinon elle est refusée
+- Agents extracteur, auditeur et contradicteur sur des sources PubMed, PMC et arXiv
+- **Chaque citation est vérifiée mot pour mot** dans la source, sinon elle est refusée
+- Schémas stricts, budget par run, tests rejouables sans réseau, red-teaming
 
 ### Moteur de backtest et d'exécution sur séries temporelles
 `Python` `SQLite` `pytest` · testnet uniquement, sans capital
@@ -36,7 +37,7 @@ Tours (mobilité France) · [LinkedIn](https://www.linkedin.com/in/nikola-gandon
 ### Stage R&D, machine learning scientifique (2026)
 `PyTorch Geometric` · laboratoire de chimie, Université de Tours, en binôme
 
-- Delta-ML : GNN équivariant qui corrige un calcul quantique rapide mais approximatif (xTB) vers la méthode de référence (DFT), sur **2,2 M de molécules**
+- Delta-ML : GNN équivariant qui corrige un calcul quantique rapide mais approximatif (xTB) vers la méthode de référence (DFT), sur **2,2 M de molécules**, avec attribution atome par atome (XAI)
 - Données estimées à ~120 Go pour 32 Go de RAM, traitées par fragments
 
 ---
@@ -73,4 +74,4 @@ Tours (mobilité France) · [LinkedIn](https://www.linkedin.com/in/nikola-gandon
 
 ---
 
-**Stack :** Python · PyTorch · LangGraph · TypeScript · SQL · Pandas · pytest · Docker · AWS (Terraform) · Git
+**Stack :** Python · PyTorch · TypeScript · SQL · Pandas · pytest · Docker · AWS (Terraform) · Git
