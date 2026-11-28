@@ -25,7 +25,7 @@ Tours (mobilité France) · [LinkedIn](https://www.linkedin.com/in/nikola-gandon
 
 - **Confidentialité des entrées LLM** : détecteurs français validés par clé mathématique (IBAN mod-97, NIR Corse `2A`/`2B` clé 97, SIREN/SIRET Luhn + La Poste, téléphones FR, emails), chaînage patronymique (`M. Pierre Dupont` ↔ `LOYER SCI DUPONT`) et détection des homonymes ambigus
 - **Serveur MCP v2 à séparation stricte entrée / sortie** : `SYMBOLON_INPUT_DIR` (lecture seule) et `SYMBOLON_OUTPUT_DIR` (écriture seule `O_EXCL` en `0600`) strictement disjoints pour bloquer toute exfiltration par enchaînement d'outils ; coffre JSON atomique `0600`
-- **24 tests** (dont 4 suites *property-based* `hypothesis`), `mypy --strict`, corpus synthétique de non-régression bloquant en CI (71 docs, 25 pièges : **0/25** faux positifs, **0/71** fuite sur entités du coffre)
+- **24 tests** (dont 4 suites *property-based* `hypothesis`), `mypy --strict`, corpus synthétique FR bloquant en CI (71 docs : **rappel 96,5 %** — 100 % identifiants structurés, 90,9 % personnes sans NER — **0/25** faux positif sur pièges)
 
 ---
 
