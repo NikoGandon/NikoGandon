@@ -17,15 +17,15 @@ Tours (mobilité France) · [LinkedIn](https://www.linkedin.com/in/nikola-gandon
 
 - **Fiabilité des sorties LLM** : collecte PubMed, PMC Open Access et arXiv ; agents extracteur, auditeur, contradicteur et routeur
 - **Garde-fous hors LLM** : chaque citation est vérifiée mot pour mot dans la source, pré-filtres lexicaux, schémas Pydantic gelés, plafond de budget pré-appel
-- **626 tests hors réseau** (`pytest`, `hypothesis`, red-teaming), `mypy --strict`, CI GitHub Actions, API FastAPI + Docker Compose (démo rejouable à 0 USD) et support Ollama local
-- **Évaluation reproductible (64 cas piégés, rejeu à 0 USD)** : 90,2 % d'exactitude globale (**93,8 %** hors refus fournisseur), **2,5 %** de faux positifs critiques (Opus) / **0 %** sur Qwen malgré 53,7 % de sorties hors schéma
+- **626 tests hors réseau** (`pytest`, `hypothesis`, red-teaming), `mypy --strict`, CI GitHub Actions, API FastAPI + Docker Compose (démo rejouable hors réseau) et support Ollama local
+- **Évaluation reproductible (64 cas piégés, cassettes rejouables hors réseau)** : 90,2 % d'exactitude globale (**93,8 %** hors refus fournisseur), **2,5 %** de faux positifs critiques (Opus) / **0 %** sur Qwen malgré 53,7 % de sorties hors schéma
 
 ### Symbolon — Pseudonymisation réversible RGPD (Art. 4(5)) & serveur MCP local
 `Python` `MCP` `Pydantic` `hypothesis` `Docker` `mypy --strict` · projet personnel · **[code source et non-régression](https://github.com/NikoGandon/symbolon-pii)**
 
 - **Confidentialité des entrées LLM** : détecteurs français validés par clé mathématique (IBAN mod-97, NIR Corse `2A`/`2B` clé 97, SIREN/SIRET Luhn + La Poste, téléphones FR, emails), chaînage patronymique (`M. Pierre Dupont` ↔ `LOYER SCI DUPONT`) et détection des homonymes ambigus
 - **Serveur MCP v2 à séparation stricte entrée / sortie** : `SYMBOLON_INPUT_DIR` (lecture seule) et `SYMBOLON_OUTPUT_DIR` (écriture seule `O_EXCL` en `0600`) strictement disjoints pour bloquer toute exfiltration par enchaînement d'outils ; coffre JSON atomique `0600`
-- **23 tests** (dont 4 suites *property-based* `hypothesis`), `mypy --strict`, corpus synthétique de non-régression bloquant en CI (69 docs, 25 pièges : **0/25** faux positifs, **0/69** fuite sur entités du coffre)
+- **24 tests** (dont 4 suites *property-based* `hypothesis`), `mypy --strict`, corpus synthétique de non-régression bloquant en CI (71 docs, 25 pièges : **0/25** faux positifs, **0/71** fuite sur entités du coffre)
 
 ---
 
@@ -44,7 +44,7 @@ Le code de ces projets est privé. Leur architecture, leurs choix de conception 
 `Python` `SQLite` `pytest` · testnet uniquement, sans capital
 
 - Séries à la minute sans biais de *look-ahead*, simulateur validé contre le vrai moteur : **0 écart sur 23 scénarios**
-- **3 700 tests**, fuzzing sur 10 000 graines
+- **4 171 tests**, fuzzing sur 10 000 graines
 
 ### Stage R&D, machine learning scientifique (2026)
 `PyTorch Geometric` · laboratoire de chimie, Université de Tours, en binôme
